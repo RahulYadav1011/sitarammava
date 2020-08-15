@@ -1,9 +1,9 @@
-﻿<?php
-$name=$_REQUEST['name'];
-$email=$_REQUEST['email'];
-$message=$_REQUEST['message'];
+<?php
+$name=$_POST['name'];
+$email=$_POST['email'];
+$message=$_POST['message'];
 mail("rahulyadavyadav306@gmail.com","QUERY MESSAGE",$message,"From: $name <$email>");
-echo "<script>alert('mail sended');
-window.history.log(-1);
+echoi"<script>alert('mail sended');
+     window.history.log(-1);
 </script>";
 ?>
