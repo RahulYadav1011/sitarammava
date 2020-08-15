@@ -6,9 +6,9 @@
           
      <body>
 <?php
-$Name=$_POST['name'];
-$Email=$_POST['email'];
-$Message=$_POST['message'];
+$Name=$_REQUEST['name'];
+$Email=$_REQUEST['email'];
+$Message=$_REQUEST['message'];
 if(empty($Name) || empty($Email) ||empty($Message))
 {
      echo "please fill all the details";
